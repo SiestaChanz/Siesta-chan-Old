@@ -1,0 +1,31 @@
+{
+  "name": "chatbot-ai-v1",
+  "version": "2.8.5",
+  "description": "Hey there! Looking to make a chatbot? Here is your right place!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MGalaCyber/discord-chatbot-ai.git"
+  },
+  "keywords": [],
+  "author": "MGalaCyber",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/MGalaCyber/discord-chatbot-ai/issues"
+  },
+  "homepage": "https://github.com/MGalaCyber/discord-chatbot-ai#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "clever-chat": "^8.0.1",
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "glob": "^7.2.0",
+    "quick.db": "^7.1.3"
+  }
+}
